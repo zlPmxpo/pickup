@@ -1,0 +1,10 @@
+ getgenv().bla = v 
+    while true do
+        wait(1.3)
+        if not getgenv().bla then return end
+for i,v in pairs (workspace.Trinkets:GetChildren()) do
+if v:FindFirstChild("ClickPart") then
+      fireclickdetector(v.ClickPart.ClickDetector)
+end
+end
+end
